@@ -50,3 +50,11 @@ template: "simple"
 #      cookie_name: eshop.session
 #      is_secure: 1
 #      is_http_only: 1
+
+plugins:
+  DBIC:
+  default:
+  schema_class: MyApp::Schema
+  dsn: dbi:mysql:dbname=pandora
+  user: root
+  pass: strawb3rry
